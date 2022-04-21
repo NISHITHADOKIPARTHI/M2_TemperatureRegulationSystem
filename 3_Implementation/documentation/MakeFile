@@ -1,4 +1,4 @@
-DOXY_FILE = TEMPERATUREREGULATIONSYSTEM
+DOXY_FILE = TemperatureRegulationSystem
 BUILD_FILE = html
 
 FixPath = $(subst /,\,$1)
