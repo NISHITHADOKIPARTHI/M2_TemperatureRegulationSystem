@@ -1,4 +1,4 @@
-PROJ_NAME = TEMPERATUREREGULATIONSYSTEM
+PROJ_NAME = TemperatureRegulationSystem
 
 BUILD_DIR = Build
 
