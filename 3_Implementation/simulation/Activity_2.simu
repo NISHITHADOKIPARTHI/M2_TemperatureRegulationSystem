@@ -1,0 +1,90 @@
+<circuit speed="1000000" animate="0" type="simulide_0.1" noLinStep="10" noLinAcc="5" reactStep="50">
+ 
+Probe-34: 
+<item vflip="1" hflip="1" labely="-16" y="-372" PlotterCh="0" itemtype="Probe" valLabelx="16" objectName="Probe-34" id="Probe-34" labelx="16" valLabRot="45" labelrot="45" Show_volt="true" Show_id="false" valLabely="0" rotation="-45" x="-60"/>
+ 
+Probe-33: 
+<item vflip="1" hflip="1" labely="-16" y="-332" PlotterCh="0" itemtype="Probe" valLabelx="16" objectName="Probe-33" id="Probe-33" labelx="16" valLabRot="45" labelrot="45" Show_volt="true" Show_id="false" valLabely="0" rotation="-45" x="-68"/>
+ 
+Fixed Voltage-29: 
+<item objectName="Fixed Voltage-29" labely="-24" itemtype="Fixed Voltage" valLabely="8" Show_Volt="true" Unit=" V" Show_id="false" Voltage="5" vflip="1" hflip="1" y="-420" x="-108" id="Fixed Voltage-29" labelx="-64" valLabelx="-16" labelrot="0" rotation="0" valLabRot="0"/>
+ 
+Ground-28: 
+<item vflip="1" hflip="1" labely="-24" y="-316" itemtype="Ground" valLabelx="0" objectName="Ground-28" id="Ground-28" labelx="-16" valLabRot="0" labelrot="0" Show_id="false" valLabely="0" rotation="0" x="100"/>
+ 
+Potentiometer-27: 
+<item objectName="Potentiometer-27" Resistance="1" labely="-24" itemtype="Potentiometer" valLabely="-20" Unit=" kO" Value_Ohm="500" Show_id="false" vflip="1" hflip="1" y="-356" x="-12" id="Potentiometer-27" labelx="-16" Show_res="true" valLabelx="10" labelrot="0" rotation="0" valLabRot="0"/>
+ 
+atmega328-10: 
+<item objectName="atmega328-10" labely="-20" Ser_Port="false" itemtype="AVR" valLabely="0" Show_id="true" vflip="1" hflip="1" y="-364" x="-228" id="atmega328-10" labelx="0" Ser_Monitor="false" Mhz="16" valLabelx="0" Program="../../codeblocks/Practice/bin/Release/Practice.hex" labelrot="0" rotation="0" valLabRot="0"/>
+ 
+Led-9: 
+<item objectName="Led-9" Resistance="0.59999999999999998" labely="-24" Threshold="2.3999999999999999" itemtype="Led" valLabely="0" Color="0" Show_id="false" Grounded="false" vflip="1" hflip="1" MaxCurrent="0.029999999999999999" y="-252" x="-364" id="Led-9" labelx="-16" valLabelx="0" labelrot="0" rotation="-180" valLabRot="0"/>
+ 
+Resistor-8: 
+<item objectName="Resistor-8" Resistance="100" labely="-24" itemtype="Resistor" valLabely="6" Unit=" O" Show_id="false" vflip="1" hflip="1" y="-252" x="-284" id="Resistor-8" labelx="-12" Show_res="true" valLabelx="-16" labelrot="0" rotation="0" valLabRot="0"/>
+ 
+Ground-7: 
+<item vflip="1" hflip="1" labely="-24" y="-236" itemtype="Ground" valLabelx="0" objectName="Ground-7" id="Ground-7" labelx="-16" valLabRot="0" labelrot="0" Show_id="false" valLabely="0" rotation="0" x="-460"/>
+ 
+Node-6: 
+<item vflip="1" hflip="1" labely="-24" y="-252" itemtype="Node" valLabelx="0" objectName="Node-6" id="Node-6" labelx="-16" valLabRot="0" labelrot="0" Show_id="false" valLabely="0" rotation="0" x="-460"/>
+ 
+Probe-5: 
+<item vflip="1" hflip="1" labely="-16" y="-364" PlotterCh="0" itemtype="Probe" valLabelx="16" objectName="Probe-5" id="Probe-5" labelx="16" valLabRot="45" labelrot="45" Show_volt="true" Show_id="false" valLabely="0" rotation="-45" x="-300"/>
+ 
+Switch-4: 
+<item objectName="Switch-4" labely="-24" itemtype="Switch" valLabely="0" DT="false" Poles="1" Show_id="false" vflip="1" Norm_Close="false" hflip="1" y="-348" x="-380" id="Switch-4" labelx="-16" valLabelx="0" labelrot="0" rotation="0" valLabRot="0"/>
+ 
+Probe-3: 
+<item vflip="1" hflip="1" labely="-16" y="-332" PlotterCh="0" itemtype="Probe" valLabelx="16" objectName="Probe-3" id="Probe-3" labelx="16" valLabRot="45" labelrot="45" Show_volt="true" Show_id="false" valLabely="0" rotation="-45" x="-300"/>
+ 
+Switch-2: 
+<item objectName="Switch-2" labely="-24" itemtype="Switch" valLabely="0" DT="false" Poles="1" Show_id="false" vflip="1" Norm_Close="false" hflip="1" y="-316" x="-380" id="Switch-2" labelx="-16" valLabelx="0" labelrot="0" rotation="0" valLabRot="0"/>
+ 
+Node-1: 
+<item vflip="1" hflip="1" labely="-24" y="-316" itemtype="Node" valLabelx="0" objectName="Node-1" id="Node-1" labelx="-16" valLabRot="0" labelrot="0" Show_id="false" valLabely="0" rotation="0" x="-460"/>
+ 
+Connector-11: 
+<item objectName="Connector-11" labely="-24" itemtype="Connector" valLabely="0" enodeid="Circ_eNode-12" Show_id="false" startpinid="Resistor-8-rPin" vflip="1" hflip="1" y="-252" x="-268" id="Connector-11" labelx="-16" valLabelx="0" pointList="-268,-252,-236,-252" labelrot="0" rotation="0" valLabRot="0" endpinid="atmega328-10-PB0"/>
+ 
+Connector-13: 
+<item objectName="Connector-13" labely="-24" itemtype="Connector" valLabely="0" enodeid="Circ_eNode-14" Show_id="false" startpinid="Led-9-lPin" vflip="1" hflip="1" y="-252" x="-348" id="Connector-13" labelx="-16" valLabelx="0" pointList="-348,-252,-300,-252" labelrot="0" rotation="0" valLabRot="0" endpinid="Resistor-8-lPin"/>
+ 
+Connector-15: 
+<item objectName="Connector-15" labely="-24" itemtype="Connector" valLabely="0" enodeid="Circ_eNode-16" Show_id="false" startpinid="Ground-7-Gnd" vflip="1" hflip="1" y="-252" x="-460" id="Connector-15" labelx="-16" valLabelx="0" pointList="-460,-252,-460,-252" labelrot="0" rotation="0" valLabRot="0" endpinid="Node-6-0"/>
+ 
+Connector-17: 
+<item objectName="Connector-17" labely="-24" itemtype="Connector" valLabely="0" enodeid="Circ_eNode-16" Show_id="false" startpinid="Node-6-2" vflip="1" hflip="1" y="-252" x="-460" id="Connector-17" labelx="-16" valLabelx="0" pointList="-460,-252,-380,-252" labelrot="0" rotation="0" valLabRot="0" endpinid="Led-9-rPin"/>
+ 
+Connector-18: 
+<item objectName="Connector-18" labely="-24" itemtype="Connector" valLabely="0" enodeid="Circ_eNode-19" Show_id="false" startpinid="Switch-4-switch0pinN" vflip="1" hflip="1" y="-348" x="-364" id="Connector-18" labelx="-16" valLabelx="0" pointList="-364,-348,-260,-348,-260,-332,-236,-332" labelrot="0" rotation="0" valLabRot="0" endpinid="atmega328-10-PD2"/>
+ 
+Connector-20: 
+<item objectName="Connector-20" labely="-24" itemtype="Connector" valLabely="0" enodeid="Circ_eNode-16" Show_id="false" startpinid="Switch-4-pinP0" vflip="1" hflip="1" y="-348" x="-396" id="Connector-20" labelx="-16" valLabelx="0" pointList="-396,-348,-460,-348,-460,-316" labelrot="0" rotation="0" valLabRot="0" endpinid="Node-1-0"/>
+ 
+Connector-21: 
+<item objectName="Connector-21" labely="-24" itemtype="Connector" valLabely="0" enodeid="Circ_eNode-22" Show_id="false" startpinid="Switch-2-switch0pinN" vflip="1" hflip="1" y="-316" x="-364" id="Connector-21" labelx="-16" valLabelx="0" pointList="-364,-316,-260,-316,-260,-324,-236,-324" labelrot="0" rotation="0" valLabRot="0" endpinid="atmega328-10-PD3"/>
+ 
+Connector-23: 
+<item objectName="Connector-23" labely="-24" itemtype="Connector" valLabely="0" enodeid="Circ_eNode-16" Show_id="false" startpinid="Switch-2-pinP0" vflip="1" hflip="1" y="-316" x="-396" id="Connector-23" labelx="-16" valLabelx="0" pointList="-396,-316,-460,-316" labelrot="0" rotation="0" valLabRot="0" endpinid="Node-1-1"/>
+ 
+Connector-24: 
+<item objectName="Connector-24" labely="-24" itemtype="Connector" valLabely="0" enodeid="Circ_eNode-16" Show_id="false" startpinid="Node-1-2" vflip="1" hflip="1" y="-316" x="-460" id="Connector-24" labelx="-16" valLabelx="0" pointList="-460,-316,-460,-252" labelrot="0" rotation="0" valLabRot="0" endpinid="Node-6-1"/>
+ 
+Connector-30: 
+<item objectName="Connector-30" labely="-24" itemtype="Connector" valLabely="0" enodeid="enode-30" Show_id="false" startpinid="Fixed Voltage-29-outnod" vflip="1" hflip="1" y="-420" x="-92" id="Connector-30" labelx="-16" valLabelx="0" pointList="-92,-420,-92,-356,-28,-356" labelrot="0" rotation="0" valLabRot="0" endpinid="Potentiometer-27-PinA"/>
+ 
+Connector-31: 
+<item objectName="Connector-31" labely="-24" itemtype="Connector" valLabely="0" enodeid="enode-31" Show_id="false" startpinid="atmega328-10-PC0" vflip="1" hflip="1" y="-316" x="-188" id="Connector-31" labelx="-16" valLabelx="0" pointList="-188,-316,-12,-316,-12,-340" labelrot="0" rotation="0" valLabRot="0" endpinid="Potentiometer-27-PinM"/>
+ 
+Connector-32: 
+<item objectName="Connector-32" labely="-24" itemtype="Connector" valLabely="0" enodeid="enode-32" Show_id="false" startpinid="Potentiometer-27-PinB" vflip="1" hflip="1" y="-356" x="4" id="Connector-32" labelx="-16" valLabelx="0" pointList="4,-356,100,-356,100,-332" labelrot="0" rotation="0" valLabRot="0" endpinid="Ground-28-Gnd"/>
+ 
+PlotterWidget-25: 
+<item minimumSize="" windowTitle="" inputMethodHints="0" accessibleDescription="" sizePolicy="" layoutDirection="0" childrenRect="" minimumWidth="200" isActiveWindow="true" whatsThis="" palette="" updatesEnabled="true" acceptDrops="false" maximumSize="" baseSize="" height="200" statusTip="" size="" sizeIncrement="" MaxVolt="500" autoFillBackground="false" minimumSizeHint="" pos="" windowModified="false" normalGeometry="" toolTip="" windowFilePath="" itemtype="Plotter" maximumHeight="200" windowOpacity="1" minimumHeight="200" enabled="true" frameGeometry="" rect="" mouseTracking="false" minimized="false" sizeHint="" modal="false" y="0" cursor="" accessibleName="" objectName="PlotterWidget-25" locale="" contextMenuPolicy="1" windowModality="0" fullScreen="false" childrenRegion="" maximized="false" maximumWidth="1000" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" x="0" styleSheet="" frameSize="" visible="false" focus="false" MinVolt="-500" width="200" windowIcon="" windowIconText="" focusPolicy="0" toolTipDuration="-1" geometry=""/>
+ 
+SerialPortWidget-26: 
+<item minimumSize="" windowTitle="Settings" inputMethodHints="0" accessibleDescription="" sizePolicy="" layoutDirection="0" childrenRect="" minimumWidth="0" isActiveWindow="true" whatsThis="" palette="" updatesEnabled="true" acceptDrops="false" maximumSize="" baseSize="" height="141" statusTip="" size="" sizeIncrement="" autoFillBackground="false" minimumSizeHint="" pos="" windowModified="false" normalGeometry="" toolTip="" windowFilePath="" itemtype="SerialPort" maximumHeight="170" windowOpacity="1" minimumHeight="0" enabled="true" frameGeometry="" rect="" mouseTracking="false" minimized="false" sizeHint="" modal="false" y="0" cursor="" accessibleName="" objectName="SerialPortWidget-26" locale="" contextMenuPolicy="1" SettingsProp=",0,3,0,0,0" windowModality="0" fullScreen="false" childrenRegion="" maximized="false" maximumWidth="450" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" x="0" styleSheet="" frameSize="" visible="false" focus="false" width="313" windowIcon="" windowIconText="" focusPolicy="0" toolTipDuration="-1" geometry=""/>
+ 
+</circuit>
